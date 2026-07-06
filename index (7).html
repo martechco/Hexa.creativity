@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexa.Creativity | Professional Discord Server Development</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+    <!-- Loading Animation -->
+    <div id="loader" class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Hexa.Creativity</a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="https://discord.gg/VbtYQuGeNK" target="_blank" class="btn btn-primary order-btn">Order Now</a>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="animated-bg">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="fade-in">Professional Discord Server Development</h1>
+                <p class="fade-in">I build clean, organized, secure, and fully customized Discord servers for gaming communities, businesses, creators, crypto projects, educational communities, and more.</p>
+                <div class="hero-btns fade-in">
+                    <a href="https://discord.gg/VbtYQuGeNK" target="_blank" class="btn btn-primary">Order Now</a>
+                    <a href="https://discord.gg/VbtYQuGeNK" target="_blank" class="btn btn-secondary"><i class="fab fa-discord"></i> Join Discord</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="fade-in">About Hexa.Creativity</h2>
+                <p class="fade-in">Hexa.Creativity specializes in creating clean, organized, scalable, secure Discord servers with automation, moderation, ticket systems, verification systems, logging systems, role management, and professional layouts.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card fade-in">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Professional Layouts</h3>
+                </div>
+                <div class="feature-card fade-in">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Fast Delivery</h3>
+                </div>
+                <div class="feature-card fade-in">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Security Focused</h3>
+                </div>
+                <div class="feature-card fade-in">
+                    <i class="fas fa-robot"></i>
+                    <h3>Custom Automation</h3>
+                </div>
+                <div class="feature-card fade-in">
+                    <i class="fas fa-users-cog"></i>
+                    <h3>Organized Permissions</h3>
+                </div>
+                <div class="feature-card fade-in">
+                    <i class="fas fa-smile"></i>
+                    <h3>Client Satisfaction</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="fade-in">Our Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <i class="fas fa-server"></i>
+                    <h3>Discord Server Setup</h3>
+                    <p>Complete setup from scratch with optimal settings.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Server Redesign</h3>
+                    <p>Transform your existing server into a professional space.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Role & Permission Setup</h3>
+                    <p>Granular and secure role hierarchy and permissions.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-user-check"></i>
+                    <h3>Verification Systems</h3>
+                    <p>Keep your server safe from bots and raiders.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-ticket-alt"></i>
+                    <h3>Ticket Systems</h3>
+                    <p>Professional support systems for your community.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-gavel"></i>
+                    <h3>Moderation Setup</h3>
+                    <p>Automated and manual moderation tools.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-tags"></i>
+                    <h3>Reaction Roles</h3>
+                    <p>Self-assignable roles for your members.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-door-open"></i>
+                    <h3>Welcome Systems</h3>
+                    <p>Customized welcome messages and images.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-list-alt"></i>
+                    <h3>Logging Systems</h3>
+                    <p>Track everything that happens in your server.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Bot Configuration</h3>
+                    <p>Setup and configuration of any Discord bot.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-robot"></i>
+                    <h3>Auto Moderation</h3>
+                    <p>AI-powered protection against spam and toxicity.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Staff Management</h3>
+                    <p>Systems for staff recruitment and management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="fade-in">Pricing Plans</h2>
+                <p class="fade-in">Choose the perfect package for your community.</p>
+            </div>
+            <div class="pricing-grid">
+                <!-- Basic -->
+                <div class="pricing-card fade-in">
+                    <div class="price-header">
+                        <h3>Basic</h3>
+                        <div class="price">$10</div>
+                    </div>
+                    <ul class="price-features">
+                        <li><i class="fas fa-check"></i> Clean Layout</li>
+                        <li><i class="fas fa-check"></i> Channels</li>
+                        <li><i class="fas fa-check"></i> Roles</li>
+                        <li><i class="fas fa-check"></i> Welcome Message</li>
+                        <li><i class="fas fa-check"></i> Moderation</li>
+                    </ul>
+                    <a href="https://discord.gg/VbtYQuGeNK" target="_blank" class="btn btn-primary">Order Now</a>
+                </div>
+                <!-- Standard -->
+                <div class="pricing-card fade-in">
+                    <div class="price-header">
+                        <h3>Standard</h3>
+                        <div class="price">$15</div>
+                    </div>
+                    <ul class="price-features">
+                        <li><i class="fas fa-plus"></i> Everything in Basic</li>
+                        <li><i class="fas fa-check"></i> Reaction Roles</li>
+                        <li><i class="fas fa-check"></i> Logging</li>
+                        <li><i class="fas fa-check"></i> Staff Permissions</li>
+                    </ul>
+                    <a href="https://discord.gg/VbtYQuGeNK" target="_blank" class="btn btn-primary">Order Now</a>
+                </div>
+                <!-- Advanced -->
+                <div class="pricing-card fade-in">
+                    <div class="price-header">
+                        <h3>Advanced</h3>
+                        <div class="price">$20</div>
+                    </div>
+                    <ul class="price-features">
+                        <li><i class="fas fa-plus"></i> Everything in Standard</li>
+                        <li><i class="fas fa-check"></i> Ticket System</li>
+                        <li><i class="fas fa-check"></i> Verification</li>
+                        <li><i class="fas fa-check"></i> Automation</li>
+                        <li><i class="fas fa-check"></i> Bot Setup</li>
+                    </ul>
+                    <a href="https://discord.gg/VbtYQuGeNK" target="_blank" class="btn btn-primary">Order Now</a>
+                </div>
+                <!-- Full Setup -->
+                <div class="pricing-card popular fade-in">
+                    <div class="popular-tag">MOST POPULAR</div>
+                    <div class="price-header">
+                        <h3>Full Setup</h3>
+                        <div class="price">$30</div>
+                    </div>
+                    <ul class="price-features">
+                        <li><i class="fas fa-check"></i> Everything included</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                        <li><i class="fas fa-check"></i> Custom Bot Integration</li>
+                        <li><i class="fas fa-check"></i> Unlimited Revisions</li>
+                    </ul>
+                    <a href="https://discord.gg/VbtYQuGeNK" target="_blank" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Payment Methods -->
+            <div class="payment-methods fade-in">
+                <h3>Accepted Payment Methods</h3>
+                <div class="payment-icons">
+                    <div class="payment-item" title="Gift Card">
+                        <i class="fas fa-gift"></i>
+                        <span>Gift Card</span>
+                    </div>
+                    <div class="payment-item" title="Wire Transfer">
+                        <i class="fas fa-university"></i>
+                        <span>Wire Transfer</span>
+                    </div>
+                    <div class="payment-item" title="Bitcoin">
+                        <i class="fab fa-bitcoin"></i>
+                        <span>Bitcoin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Section -->
+    <section id="workflow" class="workflow">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="fade-in">Our Workflow</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-number">1</div>
+                    <div class="timeline-content">
+                        <h3>Discuss Requirements</h3>
+                        <p>We talk about your vision and needs.</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-number">2</div>
+                    <div class="timeline-content">
+                        <h3>Choose Package</h3>
+                        <p>Select the plan that fits your budget.</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-number">3</div>
+                    <div class="timeline-content">
+                        <h3>Development</h3>
+                        <p>I start building your dream server.</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-number">4</div>
+                    <div class="timeline-content">
+                        <h3>Progress Updates</h3>
+                        <p>Stay informed with regular updates.</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-number">5</div>
+                    <div class="timeline-content">
+                        <h3>Revisions</h3>
+                        <p>Fine-tuning until you are 100% satisfied.</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-number">6</div>
+                    <div class="timeline-content">
+                        <h3>Delivery</h3>
+                        <p>Your professional server is ready!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="fade-in">Client Reviews</h2>
+                <div class="stats fade-in">
+                    <div class="stat-item">
+                        <div class="stat-value" id="avgRating">0.0</div>
+                        <div class="stat-stars" id="avgStars"></div>
+                        <div class="stat-label">Average Rating</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="totalReviews">0</div>
+                        <div class="stat-label">Total Reviews</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-controls fade-in">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="reviewSearch" placeholder="Search reviews...">
+                </div>
+                <div class="sort-box">
+                    <select id="reviewSort">
+                        <option value="newest">Newest First</option>
+                        <option value="oldest">Oldest First</option>
+                        <option value="highest">Highest Rating</option>
+                        <option value="lowest">Lowest Rating</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="review-grid" id="reviewGrid">
+                <!-- Reviews will be loaded here via JS -->
+            </div>
+            
+            <div class="load-more-container fade-in">
+                <button id="loadMoreBtn" class="btn btn-secondary">Load More</button>
+            </div>
+
+            <div class="submit-review fade-in">
+                <h3>Submit a Review</h3>
+                <form id="reviewForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" id="revName" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Rating</label>
+                            <div class="star-rating" id="starInput">
+                                <i class="far fa-star" data-rating="1"></i>
+                                <i class="far fa-star" data-rating="2"></i>
+                                <i class="far fa-star" data-rating="3"></i>
+                                <i class="far fa-star" data-rating="4"></i>
+                                <i class="far fa-star" data-rating="5"></i>
+                            </div>
+                            <input type="hidden" id="revRating" value="0">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Review Title</label>
+                        <input type="text" id="revTitle" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Review Message</label>
+                        <textarea id="revMessage" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Review</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="fade-in">Frequently Asked Questions</h2>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item fade-in">
+                    <div class="accordion-header">
+                        <h3>How long does delivery take?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Delivery time depends on the package selected. Basic setups usually take 24-48 hours, while Advanced and Full Setups can take 3-5 days.</p>
+                    </div>
+                </div>
+                <div class="accordion-item fade-in">
+                    <div class="accordion-header">
+                        <h3>Can you redesign my server?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Yes! I can take your existing server and completely transform it with professional layouts, roles, and systems without losing your current members.</p>
+                    </div>
+                </div>
+                <div class="accordion-item fade-in">
+                    <div class="accordion-header">
+                        <h3>Can I request revisions?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Absolutely. Your satisfaction is my priority. Each package includes a certain number of revisions to ensure everything is perfect.</p>
+                    </div>
+                </div>
+                <div class="accordion-item fade-in">
+                    <div class="accordion-header">
+                        <h3>Can you build any server type?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Yes, I have experience building servers for gaming, NFT/Crypto, educational purposes, businesses, and private social communities.</p>
+                    </div>
+                </div>
+                <div class="accordion-item fade-in">
+                    <div class="accordion-header">
+                        <h3>Do I need to invite you?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Yes, you will need to provide me with Administrative permissions or invite me to the server to perform the setup. I follow strict security protocols.</p>
+                    </div>
+                </div>
+                <div class="accordion-item fade-in">
+                    <div class="accordion-header">
+                        <h3>How do I get started?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Simply click the "Order Now" button, choose your package, and contact me via Discord or the contact form to discuss your requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-card fade-in">
+                <h2>Ready to elevate your Discord community?</h2>
+                <p>Contact me today and let's build something amazing together.</p>
+                <div class="contact-btns">
+                    <a href="https://x.com/Labost909" target="_blank" class="btn btn-secondary"><i class="fab fa-twitter"></i> X Profile</a>
+                    <a href="https://discord.gg/VbtYQuGeNK" target="_blank" class="btn btn-primary"><i class="fab fa-discord"></i> Discord Community</a>
+                    <a href="https://discord.gg/VbtYQuGeNK" target="_blank" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <a href="#" class="logo">Hexa.Creativity</a>
+                    <p>Professional Discord Server Development. Clean, organized, and secure solutions for your community.</p>
+                    <div class="social-links">
+                        <a href="https://discord.gg/VbtYQuGeNK" target="_blank"><i class="fab fa-discord"></i></a>
+                        <a href="https://x.com/Labost909" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <a href="#contact">Contact</a>
+                    <a href="https://discord.gg/VbtYQuGeNK">Community</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hexa.Creativity. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
