@@ -132,21 +132,22 @@
   /* ============================================================
      FAQ Accordion
   ============================================================ */
-  $$(".accordion-trigger").forEach(trigger => {
+  $$(".accordion-item").forEach(item => {
+    const trigger = $(".accordion-trigger", item);
+    if (!trigger) return;
     trigger.addEventListener("click", () => {
-      const item = trigger.closest(".accordion-item");
-      const panel = $(".accordion-panel", item);
-      const isOpen = trigger.getAttribute("aria-expanded") === "true";
+      const isOpen = item.classList.contains("open");
 
-      $$(".accordion-trigger").forEach(t => {
-        if (t !== trigger){
-          t.setAttribute("aria-expanded", "false");
-          $(".accordion-panel", t.closest(".accordion-item")).style.maxHeight = null;
+      $$(".accordion-item").forEach(other => {
+        if (other !== item){
+          other.classList.remove("open");
+          const t = $(".accordion-trigger", other);
+          if (t) t.setAttribute("aria-expanded", "false");
         }
       });
 
+      item.classList.toggle("open", !isOpen);
       trigger.setAttribute("aria-expanded", String(!isOpen));
-      panel.style.maxHeight = isOpen ? null : panel.scrollHeight + "px";
     });
   });
 
@@ -457,4 +458,4 @@
   renderReviews();
 
 })();
-  
+    
